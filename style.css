@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+nav {
+  /* position: sticky;
+    top: 0; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 29px;
+  align-items: center;
+  background-color: #eeeeee;
+  box-shadow: 0 3px 3px rgb(153, 144, 144);
+  flex-wrap: wrap;
+}
+nav ul li {
+  list-style: none;
+  font-size: 3rem;
+}
+ul li a {
+  text-decoration: none;
+  padding: 25px;
+}
+
+ul li a:hover {
+  cursor: pointer;
+}
+.logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 115px;
+}
+.mainText {
+  margin-top: 152px;
+}
+.mainText h2 {
+  font-size: 4rem;
+}
+.mainText h1 {
+  font-size: 8rem;
+}
+.mainText .top {
+  color: rgb(29, 53, 53);
+}
+.mainText p {
+  padding: 20px 0px;
+  font-size: 2.3rem;
+}
+.mainText button {
+  padding: 10px 25px;
+  color: white;
+  background-color: rgb(36, 138, 138);
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.mainText button:hover {
+  background-color: #eeee;
+  color: rgb(36, 138, 138);
+  border: 2px solid rgb(36, 138, 138);
+}
+
+.shoppingHeading {
+  /* align-item: center; */
+
+  max-width: 300px;
+  font-size: 35px;
+  margin: 40px auto;
+}
+
+.shoppingHeading span {
+  color: rgb(36, 138, 138);
+}
+.cardContainer {
+  display: flex;
+
+  justify-content: space-between;
+  max-width: 100%;
+  /* background-color: red; */
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardContainer .card {
+  width: 390px;
+  height: 350px;
+  background-color: rgb(248, 247, 246);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+  padding: 0.8 rem;
+  /* transition: all 0.5s ease-in-out ; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  padding-top: 3rem;
+}
+.card .productTitle {
+  font-size: 15px;
+  margin-top: 1rem;
+}
+.card .priceElement {
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.card button {
+  color: white;
+  background-color: rgb(36, 138, 138);
+  padding: 3px 15px;
+  border: none;
+  font-size: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(36, 138, 138);
+  color: rgb(36, 138, 138);
+}
+
+/* cart  */
+
+.card2 {
+  display: flex;
+  justify-content: center;
+}
+.blogContainer {
+  margin: 20px;
+}
+
+.head h1 {
+  text-align: center;
+  padding: 33px;
+  margin-top: 22px;
+  font-size: 5rem;
+}
+.cardContainer .head span {
+  color: rgb(64, 139, 139);
+}
+.blogContainer .head span {
+  color: rgb(64, 139, 139);
+}
+
+.blogContainer .head span {
+  color: rgb(64, 139, 139);
+}
+.blog {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  border-radius: 22px;
+  margin-inline: 100px;
+  transition: all 0.5s ease-in-out;
+}
+.blog:hover {
+  height: 350px;
+  width: 550px;
+}
+.blog img {
+  width: 45%;
+}
+.blogText {
+  /* margin-top: 79px; */
+  margin: 79px 10px;
+}
+
+.blogText a {
+  background-color: rgb(52, 132, 132);
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  position: relative;
+  /* margin: 22px;     */
+  top: 22px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.blogText h2 {
+  font-size: 4rem;
+}
+.blogText p {
+  font-size: 2rem;
+}
+
+.blogText a:hover {
+  color: rgb(52, 132, 132);
+  background-color: white;
+  border: 2px solid rgb(52, 132, 132);
+}
+.letter {
+  background-color: rgba(10, 4, 39, 0.99);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  margin-top: 50px;
+  height: 80px;
+  align-items: center;
+}
+.letter .inp input {
+  height: 18px;
+  width: 250px;
+  padding: 8px;
+  font-size: 2rem;
+}
+.letter h2 {
+  font-size: 5rem;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.letter p {
+  font-size: 2rem;
+}
+.letter .inp button {
+  height: 37px;
+  padding: 12px;
+  margin-left: 0px;
+  color: white;
+  background-color: rgb(52, 132, 132);
+  border: none;
+}
+.footer {
+  height: 300px;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.footer .ftext {
+  margin: 10px 60px;
+}
+.ftext h1 {
+  font-size: 4rem;
+}
+.ftext p {
+  padding: 11px 0px;
+  font-size: 2rem;
+}
+
+/* about page */
+.aboutBox {
+  background-color: rgba(10, 4, 39, 0.99);
+  color: white;
+
+  padding: 50px;
+}
+.aboutBox h1 {
+  font-size: 5rem;
+}
+.aboutBox p {
+  font-size: 2rem;
+}
+.aboutContainer {
+  display: flex;
+  background-color: white;
+  /* flex-wrap: wrap; */
+  width: 60%;
+  margin: 80px auto;
+  border-radius: 12px;
+}
+.aboutContainer img {
+  height: 470px;
+  width: 470px;
+}
+.aboutInnerContainer {
+  display: flex;
+  padding: 30px;
+}
+.aboutText {
+  margin-top: 120px;
+  /* font-size: 3rem; */
+}
+.aboutText h1 {
+  font-size: 4rem;
+}
+.aboutText p {
+  margin-top: 20px;
+  font-size: 2.3rem;
+}
+
+/* contact page */
+.contactContainer {
+  display: flex;
+  height: 400px;
+  /* flex-wrap: wrap; */
+  width: 85%;
+  margin: 30px auto;
+  background-color: white;
+}
+.contactText {
+  margin: 40px 30px;
+  padding: 20px;
+}
+.contactText p {
+  margin: 20px 0px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contactForm .fromInputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contactText h1 {
+  font-size: 3rem;
+}
+.contactText p {
+  font-size: 2.2rem;
+}
+
+.contactForm .fromInputs input {
+  height: 18px;
+  width: 300px;
+  padding: 8px;
+  /* font-size: 18px; */
+  margin: 8px;
+}
+.contactForm .fromInputs button {
+  color: white;
+  margin-top: 20px;
+  background-color: rgb(52, 132, 132);
+  padding: 10px;
+  border: none;
+}
+.fromInputs button:hover {
+  background-color: white;
+  color: rgb(52, 132, 132);
+  border: 2px solid rgb(83, 116, 116);
+}
+.contactForm h1 {
+  font-size: 3.5rem;
+}
+@media (max-width: 998rem) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768rem) {
+  html {
+    font-size: 45%;
+  }
+}
+
+.addCart {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+}
+.cartBox {
+  /* background-color: rgb(195 208 208); */
+  background-color: white;
+  /* margin: 20px 50px; */
+  /* box-sizing: border-box; */
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 2px;
+}
+.card3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.trash {
+  margin-right: 2rem;
+  font-size: 30px;
+  color: rgb(252, 252, 254);
+  background-color: rgb(36, 138, 138);
+  padding: 3px 15px;
+  border: none;
+  font-size: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.trash:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(36, 138, 138);
+  color: rgb(36, 138, 138);
+}
+.addCart img {
+  height: 150px;
+  width: 150px;
+}
+.card3 .price{
+    font-size: 16px;
+}
